@@ -1,0 +1,112 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Open Sans", sans-serif;
+}
+a,
+a:hover {
+  text-decoration: none;
+}
+.container {
+  width: 1140px;
+  margin: 0px auto;
+  margin-top: 5%;
+  padding-bottom: 30%;
+}
+.green {
+  background-color: green;
+  width: 700px;
+  height: 400px;
+  position: relative;
+}
+.red {
+  background: red;
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  position: absolute;
+  top: 10%;
+  left: 28%;
+}
+.stick {
+  background: #000;
+  height: 700px;
+  width: 7px;
+  position: absolute;
+}
+.pink {
+  background: #ff08c9;
+  width: 30px;
+  height: 5px;
+  position: absolute;
+  bottom: -305px;
+  left: -12px;
+}
+.blue {
+  background: #0b014a;
+  width: 40px;
+  height: 5px;
+  position: absolute;
+  bottom: -310px;
+  left: -18px;
+}
+.gray {
+  background: #632503;
+  width: 50px;
+  height: 5px;
+  position: absolute;
+  bottom: -315px;
+  left: -23px;
+}
+.fb_share {
+  position: fixed;
+  width: 150px;
+  top: 40%;
+  right: -100px;
+  transition: 1s;
+}
+.twit_share {
+  position: fixed;
+  width: 150px;
+  height: 155px;
+  top: 49.9%;
+  right: -101px;
+  transition: 1s;
+}
+.In_share {
+  position: fixed;
+  width: 150px;
+  top: 60.6%;
+  right: -100px;
+  transition: 1s;
+}
+.WhatsApp {
+  position: fixed;
+  width: 150px;
+  top: 70.9%;
+  right: -100px;
+  transition: 1s;
+}
+.YouTube_share {
+  position: fixed;
+  width: 150px;
+  top: 80.9%;
+  right: -108px;
+  transition: 1s;
+}
+.social_icon:hover {
+  right: -2px;
+  cursor: pointer;
+}
